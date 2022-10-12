@@ -25,3 +25,7 @@ FROM `countries`
 WHERE `population` > 20000000
 ORDER BY `population`
 LIMIT 10;
+
+SELECT *
+FROM `cities`
+WHERE `id` = 13;
